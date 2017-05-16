@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'din-pro-light';
+  src: url('../fonts/din-pro-light.woff') format('woff'),
+       url('../fonts/din-pro-light.ttf') format('truetype'),
+       url('../fonts/din-pro-light.svg#din-pro-light') format('svg');
+  src: url('../fonts/din-pro-light.eot');
+  src: url('../fonts/din-pro-light.woff2') format('woff2'),
+       url('../fonts/din-pro-light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'din-pro-regular';
+  src: url('../fonts/din-pro-regular.woff') format('woff'),
+       url('../fonts/din-pro-regular.ttf') format('truetype'),
+       url('../fonts/din-pro-regular.svg#din-pro-light') format('svg');
+  src: url('../fonts/din-pro-regular.eot');
+  src: url('../fonts/din-pro-regular.woff2') format('woff2'),
+       url('../fonts/din-pro-regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'din-pro-medium';
+  src: url('../fonts/din-pro-medium.woff') format('woff'),
+       url('../fonts/din-pro-medium.ttf') format('truetype'),
+       url('../fonts/din-pro-medium.svg#din-pro-light') format('svg');
+  src: url('../fonts/din-pro-medium.eot');
+  src: url('../fonts/din-pro-medium.woff2') format('woff2'),
+       url('../fonts/din-pro-medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'din-pro-bold';
+  src: url('../fonts/din-pro-bold.woff') format('woff'),
+       url('../fonts/din-pro-bold.ttf') format('truetype'),
+       url('../fonts/din-pro-bold.svg#din-pro-light') format('svg');
+  src: url('../fonts/din-pro-bold.eot');
+  src: url('../fonts/din-pro-bold.woff2') format('woff2'),
+       url('../fonts/din-pro-bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

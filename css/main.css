@@ -1,0 +1,443 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.hidden {
+    display: none !important;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+.invisible {
+    visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+}
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+#home-area {
+    background: #cfcfcf;
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px 0;
+}
+#home-area h1 {
+    font-family: 'din-pro-regular';
+    color: #fff;
+}
+#home-area sup {
+    top: -12px;
+    font-size: 10px;
+}
+.bgblk {
+    background: url(../images/blk_bg.png) center center no-repeat;
+    background-size: 100%;
+}
+.video_content {
+    float: left;
+    width: 100%;
+    margin-top: 110px;
+}
+.video_content p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.video_content a {
+    margin-top: 55px;
+    float: left;
+}
+.video_content a img {
+    margin-top: 0;
+    transition: all .5s ease-in-out;
+}
+.video_content a img:hover {
+    margin-top: -10px;
+    transition: all .5s ease-in-out;
+}
+.counter-res {
+    position: relative;
+}
+.counter-res:after {
+    content: "";
+    background: url(../images/divider_H_S.png) right top no-repeat;
+    position: absolute;
+    height: 1px;
+    width: 318px;
+    right:13%;
+    top: 50px;
+}
+.counter-res:before {
+    content: "";
+    background: url(../images/divider_H_S.png) left top no-repeat;
+    position: absolute;
+    height: 1px;
+    width: 318px;
+    left: 10%;
+    top: 50px;
+}
+.btmbox {
+    float: left;
+    width: 100%;
+    margin-top: 95px;
+}
+.btmbox h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.btmbox h1 span {
+    color: #27aae1;
+}
+.btmbox p {
+    color: #000;
+    letter-spacing: 2px;
+}
+.btmbox a {
+    margin-top: 20px;
+    float: left;
+}
+.btmbox a img {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+.btmbox a img:hover {
+    opacity: .8;
+    transition: all .5s ease-in-out;
+}
+.mobiles img {
+    width: 100%;
+}
+.top_line {
+    background: url(../images/divider_H.png) center top no-repeat;
+    padding: 25px 0 0;
+    text-align: right;
+}
+.appsBtn img {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+.appsBtn img:hover {
+    opacity: .8;
+    transition: all .5s ease-in-out;
+}
+.footer-area {
+    background: url(../images/footer_bg.png) left top repeat-x;
+}
+.footer-logo {
+    margin-top: 20px;
+}
+.footer-text {
+    color: #acacac;
+    margin-top: 20px;
+}
+.footer-icon {
+    float: right;
+    margin: 10px 0 0;
+}
+.footer-icon p {
+    color: #e8e9ea;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+.bgblk {
+    background-size: cover;
+}
+.btmbox br {
+    display: none;
+}
+.counter-res:before {;
+    left: 7%;
+}
+.counter-res:after {
+    right: 10%;
+}
+}
+
+@media only screen and (max-width: 1169px) {
+.counter-area {
+    padding-left: 59px!important;
+    padding-right: 59px!important;
+}
+.icon-text > p {
+    font-size: 9px!important;
+}
+.counter-res:before {
+    left: 0;
+}
+.counter-res:after {
+    right: 0;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+.video_content {
+    margin-top: 70px;
+}
+.btmbox h1 {
+    font-size: 35px;
+}
+.icon-text > p {
+    font-size: 9px;
+}
+.counter-res:before {
+    left: -45px;
+}
+.counter-res:after {
+    right: -20px;
+}
+}
+
+@media only screen and (max-width: 880px) {
+.counter-res:after {
+    right: 0;
+    background-size: 60%;
+}
+.counter-res:before {
+    left: 0;
+    background-size: 60%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.video_content {
+    margin-top: 30px;
+}
+.bgblk {
+    padding: 30px 0;
+}
+.btmbox h1 {
+    text-align: center;
+}
+.btmbox p {
+    text-align: center;
+}
+.btmbox a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.appsBtn {
+    text-align: center;
+}
+.footer-area {
+    background-size: cover;
+}
+.footer-logo {
+    text-align: center;
+}
+.footer-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-icon {
+    width: 100%;
+    text-align: center;
+}
+.counter-res:before {
+    left: 0;
+    background-size: 100%;
+    top: -25px;
+    margin: 0 auto;
+    right: 0;
+    width: 100%;
+    background: url(../images/divider_H_S.png) center top no-repeat;
+}
+.counter-res:after {
+    right: 0;
+    background-size: 100%;
+    left: 0;
+    margin: 0 auto;
+    top: 125px;
+    width: 100%;
+    background: url(../images/divider_H_S.png) center top no-repeat;
+}
+.counter-area {
+    padding-bottom: 26px;
+}
+
+.btmbox {
+    margin-top: 0;
+}
+.logo a {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.navbar-brand>img {
+    display: inline;
+}
+.bgblk {
+    background: url(../images/blk_bg.png) -75px center no-repeat;
+}
+}
+
+@media only screen and (max-width: 479px) {
+.container {
+    width: 95%!important;
+}
+}
+
+@media only screen and (max-width: 441px) {
+.icon-coun {
+    padding-right: 20px;
+}
+.icon-coun {
+    padding-right: 0!important;
+    width: 100%!important;
+}
+.icon-text {
+    text-align: center!important;
+    width: 100%!important;
+}
+.counter-res:after {
+    top: 210px;
+}
+}
+
+@media only screen and (max-width: 375px) {
+.about-bottom-left > h1 span {
+    font-size: 40px!important;
+    line-height: 40px!important;
+}
+.about-bottom-left > p {
+    padding-right: 0!important;
+}
+#home-area h1 {
+    font-size: 20px;
+}
+.btmbox h1 {
+    font-size: 25px;
+}
+.appsBtn a img {
+    margin-bottom: 10px;
+}
+.footer-text {
+    font-size: 12px;
+}
+}
